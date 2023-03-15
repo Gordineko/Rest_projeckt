@@ -1,0 +1,74 @@
+.sliderOne {
+  background: url(../../image/Main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sliderTwo {
+  background: url(../../image/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sliderThree {
+  background: url(../../image/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mySwipe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0f0f0f;
+}
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 6px);
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 48px);
+  pointer-events: none;
+}

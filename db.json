@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "name": "asdasd",
+      "phone": "+380-67-640-04-27",
+      "people": "2",
+      "date": "2023-03-30T21:00:00.000Z",
+      "time": "11:00 AM",
+      "email": "danilpups2@gmail.com",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
